@@ -43,6 +43,6 @@ set lmargin 5
 SPILTAXES = '\rule[-0.5pt]{1.7ex}{0.5pt}\hspace{-1.7ex}{\rule[0.5pt]{1.7ex}{0.5pt}}\color{white}\hspace{-1.7ex}{\rule{1.7ex}{0.5pt}}' 
 
 # Ranges
-set xrange [<0:*]
-set yrange [<0:*]
-set zrange [<0:*]
+set xrange [*<10:*]
+set yrange [*<10:*]
+set zrange [*<10:*]
