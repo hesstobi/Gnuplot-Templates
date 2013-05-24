@@ -37,16 +37,16 @@ set linetype 8             linecolor rgb HKS33_100 linewidth LINEWIDTH pointtype
 set linetype 9             linecolor rgb HKS36_100 linewidth LINEWIDTH pointtype POINTTYPE4 pointsize POINTSIZE4
 set linetype 10            linecolor rgb HKS07_100 linewidth LINEWIDTH pointtype POINTTYPE5 pointsize POINTSIZE5
 
-set linetype 11            linecolor rgb '#000000' linewidth LINEWIDTH pointtype POINTTYPE1 pointsize POINTSIZE1
-set linetype 12            linecolor rgb '#000000' linewidth LINEWIDTH pointtype POINTTYPE2 pointsize POINTSIZE2
-set linetype 13            linecolor rgb '#000000' linewidth LINEWIDTH pointtype POINTTYPE3 pointsize POINTSIZE3
-set linetype 14            linecolor rgb '#000000' linewidth LINEWIDTH pointtype POINTTYPE4 pointsize POINTSIZE4
-set linetype 15            linecolor rgb '#000000' linewidth LINEWIDTH pointtype POINTTYPE5 pointsize POINTSIZE5
-set linetype 16 linetype 1 linecolor rgb '#000000' linewidth LINEWIDTH pointtype POINTTYPE1 pointsize POINTSIZE1
-set linetype 17 linetype 1 linecolor rgb '#000000' linewidth LINEWIDTH pointtype POINTTYPE2 pointsize POINTSIZE2
-set linetype 18 linetype 1 linecolor rgb '#000000' linewidth LINEWIDTH pointtype POINTTYPE3 pointsize POINTSIZE3
-set linetype 19 linetype 1 linecolor rgb '#000000' linewidth LINEWIDTH pointtype POINTTYPE4 pointsize POINTSIZE4
-set linetype 20 linetype 1 linecolor rgb '#000000' linewidth LINEWIDTH pointtype POINTTYPE5 pointsize POINTSIZE5
+set linetype 11            linecolor rgb GRAY_100 linewidth LINEWIDTH pointtype POINTTYPE1 pointsize POINTSIZE1
+set linetype 12            linecolor rgb GRAY_100 linewidth LINEWIDTH pointtype POINTTYPE2 pointsize POINTSIZE2
+set linetype 13            linecolor rgb GRAY_100 linewidth LINEWIDTH pointtype POINTTYPE3 pointsize POINTSIZE3
+set linetype 14            linecolor rgb GRAY_100 linewidth LINEWIDTH pointtype POINTTYPE4 pointsize POINTSIZE4
+set linetype 15            linecolor rgb GRAY_100 linewidth LINEWIDTH pointtype POINTTYPE5 pointsize POINTSIZE5
+set linetype 16 linetype 1 linecolor rgb GRAY_100 linewidth LINEWIDTH pointtype POINTTYPE1 pointsize POINTSIZE1
+set linetype 17 linetype 1 linecolor rgb GRAY_100 linewidth LINEWIDTH pointtype POINTTYPE2 pointsize POINTSIZE2
+set linetype 18 linetype 1 linecolor rgb GRAY_100 linewidth LINEWIDTH pointtype POINTTYPE3 pointsize POINTSIZE3
+set linetype 19 linetype 1 linecolor rgb GRAY_100 linewidth LINEWIDTH pointtype POINTTYPE4 pointsize POINTSIZE4
+set linetype 20 linetype 1 linecolor rgb GRAY_100 linewidth LINEWIDTH pointtype POINTTYPE5 pointsize POINTSIZE5
 
 set linetype 21 linetype 1 linecolor rgb HKS41_100 linewidth LINEWIDTH pointtype POINTTYPE1 pointsize POINTSIZE1
 set linetype 22 linetype 1 linecolor rgb HKS41_80  linewidth LINEWIDTH pointtype POINTTYPE2 pointsize POINTSIZE2
@@ -124,3 +124,15 @@ set linetype 87            linecolor rgb HKS07_80  linewidth LINEWIDTH pointtype
 set linetype 88            linecolor rgb HKS07_60  linewidth LINEWIDTH pointtype POINTTYPE3 pointsize POINTSIZE3
 set linetype 89            linecolor rgb HKS07_40  linewidth LINEWIDTH pointtype POINTTYPE4 pointsize POINTSIZE4
 set linetype 90            linecolor rgb HKS07_20  linewidth LINEWIDTH pointtype POINTTYPE5 pointsize POINTSIZE5
+
+set linetype 91 linetype 1 linecolor rgb GRAY_100  linewidth LINEWIDTH pointtype POINTTYPE1 pointsize POINTSIZE1
+set linetype 92 linetype 1 linecolor rgb GRAY_80   linewidth LINEWIDTH pointtype POINTTYPE2 pointsize POINTSIZE2
+set linetype 93 linetype 1 linecolor rgb GRAY_60   linewidth LINEWIDTH pointtype POINTTYPE3 pointsize POINTSIZE3
+set linetype 94 linetype 1 linecolor rgb GRAY_40   linewidth LINEWIDTH pointtype POINTTYPE4 pointsize POINTSIZE4
+set linetype 95 linetype 1 linecolor rgb GRAY_20   linewidth LINEWIDTH pointtype POINTTYPE5 pointsize POINTSIZE5
+set linetype 96            linecolor rgb GRAY_100  linewidth LINEWIDTH pointtype POINTTYPE1 pointsize POINTSIZE1
+set linetype 97            linecolor rgb GRAY_80   linewidth LINEWIDTH pointtype POINTTYPE2 pointsize POINTSIZE2
+set linetype 98            linecolor rgb GRAY_60   linewidth LINEWIDTH pointtype POINTTYPE3 pointsize POINTSIZE3
+set linetype 99            linecolor rgb GRAY_40   linewidth LINEWIDTH pointtype POINTTYPE4 pointsize POINTSIZE4
+set linetype 100           linecolor rgb GRAY_20   linewidth LINEWIDTH pointtype POINTTYPE5 pointsize POINTSIZE5
+
