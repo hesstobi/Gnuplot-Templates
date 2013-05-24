@@ -6,6 +6,17 @@
 #  Copyright 2011 TU Dresden. All rights reserved.
 # 
 
+# Grau
+GRAY_100 = "#000000"
+GRAY_90 = "#1A1A1A"
+GRAY_80 = "#333333"
+GRAY_70 = "#4D4D4D"
+GRAY_60 = "#666666"
+GRAY_50 = "#808080"
+GRAY_40 = "#999999"
+GRAY_30 = "#B3B3B3"
+GRAY_20 = "#CCCCCC"
+GRAY_10 = "#E6E6E6"
 
 # Hausfarbe
 HKS41_100 = "#0B2A51"
