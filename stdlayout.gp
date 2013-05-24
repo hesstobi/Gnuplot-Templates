@@ -33,7 +33,8 @@ set border 11 lt -1 lw 2 linecolor rgb GRIDCOLOR
 
 # Labels
 set label 100 '' at screen 0, graph 0.5 center offset 1,0 textcolor rgb TEXTCOLOR rotate by 90
-set xlabel '' offset 0,0.5 textcolor rgb TEXTCOLOR
+set label 101 '' at screen 1, graph 0.5 center offset -1,0 textcolor rgb TEXTCOLOR rotate by 90
+set xlabel '' offset 0,0.0 textcolor rgb TEXTCOLOR
 labelWithArrow(desc,symb,unit) = sprintf("%s $%s$\\si[per-mode=symbol]{\\per %s} {\\tikz[baseline] \\draw[-latex,thick] (0,0.5ex) -- (7ex,0.5ex);}",desc,symb,unit)
 
 #Margin
