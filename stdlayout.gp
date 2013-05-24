@@ -47,3 +47,6 @@ SPILTAXES = '\rule[-0.5pt]{1.7ex}{0.5pt}\hspace{-1.7ex}{\rule[0.5pt]{1.7ex}{0.5p
 set xrange [*<10:*]
 set yrange [*<10:*]
 set zrange [*<10:*]
+
+# Pallette
+load 'paletteMoreland.gp'
