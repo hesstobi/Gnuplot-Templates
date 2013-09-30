@@ -1,20 +1,21 @@
 # 
-#  stdlayout.gp
+#  layout-default.gp
+#  .gnuplot
 #  
-#  
-#  Created by Tobias Heß on 2011-04-28.
-#  Copyright 2011 TU Dresden. All rights reserved.
+#  Created by Tobias Heß on 2013-08-02.
+#  Copyright 2013 TU Dresden. All rights reserved.
 # 
 
-
 #  Abfrage ob Farben definiert wurden 
-#if (!exists('GRIDCOLOR')) GRIDCOLOR = "#000000"
-#if (!exists('TEXTCOLOR')) TEXTCOLOR = "#000000"
-#
+if (!exists('GRIDCOLOR')) {
+     GRIDCOLOR = "#000000"
+} 
+if (!exists('TEXTCOLOR')) {
+     TEXTCOLOR = "#000000"
+} 
 
-# Zahlenformat
+# Format
 set format "\\num{%g}"
-set decimalsign "."
 
 # Tics
 set xtics nomirror in scale 1,0.5 offset 0,0 autofreq textcolor rgb TEXTCOLOR
@@ -35,18 +36,15 @@ set border 11 lt -1 lw 2 linecolor rgb GRIDCOLOR
 set label 100 '' at screen 0, graph 0.5 center offset 1,0 textcolor rgb TEXTCOLOR rotate by 90
 set label 101 '' at screen 1, graph 0.5 center offset -1,0 textcolor rgb TEXTCOLOR rotate by 90
 set xlabel '' offset 0,0.0 textcolor rgb TEXTCOLOR
-labelWithArrow(desc,symb,unit) = sprintf("%s $%s$\\si[per-mode=symbol]{\\per %s} {\\tikz[baseline] \\draw[-latex,thick] (0,0.5ex) -- (7ex,0.5ex);}",desc,symb,unit)
 
 #Margin
 set lmargin 5
-
-# Trennung Achse
-SPILTAXES = '\rule[-0.5pt]{1.7ex}{0.5pt}\hspace{-1.7ex}{\rule[0.5pt]{1.7ex}{0.5pt}}\color{white}\hspace{-1.7ex}{\rule{1.7ex}{0.5pt}}' 
 
 # Ranges
 set xrange [*<10:*]
 set yrange [*<10:*]
 set zrange [*<10:*]
 
-# Pallette
-load 'paletteMoreland.gp'
+# Label function
+
+labelWithArrow(desc) = sprintf("%s {\\tikz[baseline] \\draw[-latex,thick] (0,0.5ex) -- (7ex,0.5ex);}",desc)
