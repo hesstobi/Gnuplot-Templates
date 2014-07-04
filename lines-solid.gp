@@ -35,3 +35,4 @@ set linetype 4 linetype 1 linecolor rgb "#33A02C" linewidth LINEWIDTH pointtype 
 set linetype 5 linetype 1 linecolor rgb "#FB9A99" linewidth LINEWIDTH pointtype POINTTYPE5 pointsize POINTSIZE5
 set linetype 6 linetype 1 linecolor rgb "#A6CEE3" linewidth LINEWIDTH pointtype POINTTYPE1 pointsize POINTSIZE1
 set linetype 7 linetype 1 linecolor rgb "#1F78B4" linewidth LINEWIDTH pointtype POINTTYPE2 pointsize POINTSIZE2
+

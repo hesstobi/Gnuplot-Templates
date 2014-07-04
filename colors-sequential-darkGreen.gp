@@ -1,12 +1,8 @@
-# 
-#  colors-sequential-darkGreen.gp
-#  .gnuplot
-#  
-#  Created by Tobias Heß on 2013-08-02.
-#  Copyright 2013 TU Dresden. All rights reserved.
-# 
+# CD TU COLORS
 
 load 'cdtudcolors.gp'
+
+NUMOFLINETYPES=5
 
 set linetype 1  linecolor rgb HKS57_100
 set linetype 2  linecolor rgb HKS57_80 

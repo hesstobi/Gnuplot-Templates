@@ -1,10 +1,6 @@
-# 
-#  colors-qualitative-paired.gp
-#  .gnuplot
-#  
-#  Created by Tobias Heß on 2013-08-02.
-#  Copyright 2013 TU Dresden. All rights reserved.
-# 
+#TUD QUALITTIVE CLUSTERD COLORS
+
+NUMOFLINETYPES=7
 
 load 'cdtudcolors.gp'
 
@@ -14,7 +10,7 @@ set linetype 3  linecolor rgb HKS33_100
 set linetype 4  linecolor rgb HKS07_100
 set linetype 5  linecolor rgb HKS41_100 
 set linetype 6  linecolor rgb HKS57_100
-set linetype 7  linecolor rgb HKS36_100
+set linetype 7  linecolor rgb HKS36_100 dashtype 1
 
 
 set palette maxcolors 7

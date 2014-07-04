@@ -1,10 +1,8 @@
-# 
-#  colors-sequential-darkPurple.gp
-#  .gnuplot
-#  
-#  Created by Tobias Heß on 2013-08-02.
-#  Copyright 2013 TU Dresden. All rights reserved.
-# 
+# CD TU COLORS
+
+load 'cdtudcolors.gp'
+
+NUMOFLINETYPES=5
 
 load 'cdtudcolors.gp'
 
