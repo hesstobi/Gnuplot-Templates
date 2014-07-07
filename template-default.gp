@@ -11,7 +11,6 @@
 #* date - the current date
 #* year - the current year
 #* copy - the copyright holder
-#* templatedir - the directory of the templates
 #* 
 #* Lines beginning with #* will be not displayed in the
 #* resulting file. Thus these can used for commenting
@@ -29,7 +28,6 @@
 ########################################################
 
 reset
-set loadpath '#{templatedir}'
 
 ########################################################
 #  Terminal
@@ -55,15 +53,13 @@ set terminal cairolatex pdf color dashed size 16cm,10cm
 #  Loading Layouts
 ########################################################
 
-# layout
+# Layout
 # GRIDCOLOR = "#000000"
 # TEXTCOLOR = "#000000"
-load 'layout-default.gp'
-
-# line types (solid or dashed)
 # POINTSIZE = 1
 # LINEWIDTH = 1
-load 'lines-solid.gp'
+load 'layout-default.gp'
+
 
 # locale (de or en)
 load 'locale-de.gp'

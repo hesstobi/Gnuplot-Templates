@@ -6,8 +6,6 @@
 ########################################################
 
 reset
-# Load the template path
-#set loadpath '/Users/Tobi/Library/Application Support/Gnuplot'
 
 # Terminal
 set terminal cairolatex pdf color size 16cm,10cm 
