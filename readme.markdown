@@ -15,20 +15,25 @@ And than add this folder to the GNUPLOT\_LIB Enviroment Variable by adding follo
 
 ## Usage
 
-###  Main Defaults
+###   Essentials Defaults
 
-Variables, Linetypes and loading my default layout is realized in the defaults.gp. Thus
+All essential default are saved in the `default.gp` and the `layout-default.gp`. Simple 
 
-![Test DefaultsPNG](help/test-defaultsPNG.png)
+	load 'defaults.gp'
 
+to use the settings. Here is example plot with this layout:
 
-### Variablen
+![Default Layout](help/test-defaultsPNG.png)
+
+You can easily change some settings by defining the following variables
 
 * TEXTCOLOR
 * GRIDCOLOR
 * LINEWIDTH
 * POINTSIZE
 
+	Dashed Lines (`dashtype`)  | Linespoint (`with linespoint`)
+	![Test Linetypes DashedPNG](help/test-linetypes-dashedPNG.png)  | ![Test Linetypes PointsPNG](help/test-linetypes-pointsPNG.png)
 
 
     
