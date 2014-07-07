@@ -27,7 +27,7 @@ to use the settings. Here is example plot with this layout:
 
 #### Settings
 
-You can easily change some settings by defining the following variables
+You can easily change some settings by defining the following variables before you load the defaults
 
 * TEXTCOLOR
 * GRIDCOLOR
