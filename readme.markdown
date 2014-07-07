@@ -9,7 +9,9 @@ Too install the templates just store is somewhere on your computer and let Gnupl
 	$ cd ~/Library/Application Support/
 	$ git clone https://github.com/hesstobi/Gnuplot-Templates.git Gnuplot
 
+And than add this folder to the GNUPLOT\_LIB Enviroment Variable by adding following line to your .bash_profile
 
+    export GNUPLOT_LIB="$HOME/Library/Application Support/Gnuplot:$GNUPLOT_LIB"
 
 ## Usage
 
@@ -17,7 +19,7 @@ Too install the templates just store is somewhere on your computer and let Gnupl
 
 Variables, Linetypes and loading my default layout is realized in the defaults.gp. Thus
 
-
+![Test DefaultsPNG](help/test-defaultsPNG.png)
 
 
 ### Variablen
