@@ -21,6 +21,8 @@ set output 'test-defaults.tex'
 plot for [i=-1:7] 9-i*x*0.1 with lines lt i title 'linetype '.i
 
 
+
+
 load "layout-empty.gp"
 
 set terminal cairolatex pdf size 20cm,3cm
@@ -56,5 +58,28 @@ do for [file in COLORSTYLES] {
   plot for [i=1:NUMOFLINETYPES] -1*i with linespoints lt i title 'linetype '.i
 
 }
+
+unset multiplot
+
+reset
+load "defaults.gp"
+
+LAYOUTS = "layout-default.gp layout-centerAxis.gp layout-emptyCenterAxis.gp layout-empty.gp "
+
+set terminal cairolatex pdf size 20cm,20cm
+
+set output 'test-layouts.tex'
+
+f(x,i) = cos(x - 1.0 + i/10.0)
+set xrange [-pi/4:pi]
+
+set multiplot layout 2,2
+
+  do for [file in LAYOUTS] {
+    set label 1 '\textbf{'.file.'}' at graph 0.5,graph 1 center offset 0,2 
+    load file
+    set tmargin 4
+    plot for [i=1:4] f(x,i) with lines lt i notitle
+  }
 
 unset multiplot

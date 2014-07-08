@@ -67,3 +67,17 @@ This Templates are including a nice set of different color themes. To use one of
 ![Test ColorsPNG](help/test-colorsPNG.png)
 
 
+### More Layouts
+
+The pictures showes the predefiend layouts of this template set. To use one of them run 
+
+	load 'layout-[layout].gp'
+  
+The layout-default is load with the `defaults.gp`
+
+![Test LayoutsPNG](help/test-layoutsPNG.png)
+
+
+### Latex
+
+
