@@ -55,9 +55,7 @@ For plot with `points` or `linepoints` some nice point-types are preset in the l
 
 **Exambles**
 
-Dashed Lines (`dashtype`) | Linespoint (`with linespoint`)
-:-------------: | :-------------:
-![Test Linetypes DashedPNG](help/test-linetypes-dashedPNG.png) | ![Test Linetypes PointsPNG](help/test-linetypes-pointsPNG.png)
+![Test LinestypesPNG](help/test-linestypesPNG.png)
 
 
 ### Color Themes
@@ -66,14 +64,6 @@ This Templates are including a nice set of different color themes. To use one of
 
 	load 'colors-[theme].gp'
 	
-colors-qualitative-clusterd.gp | colors-qualitative-paird.gp | colors-sequential-Gray.gp 
-:-------------: | :-------------: | :-------------:
-![Test Colors Qualitative ClusterdPNG](help/test-colors-qualitative-clusterdPNG.png) | ![Test Colors Qualitative PairedPNG](help/test-colors-qualitative-pairedPNG.png) | ![Test Colors Sequential GrayPNG](help/test-colors-sequential-GrayPNG.png)
-**colors-sequential-darkBlue.gp**  | **colors-sequential-darkGreen.gp**  | **colors-sequential-darkPurpel.gp** 
-![Test Colors Sequential DarkBluePNG](help/test-colors-sequential-darkBluePNG.png) | ![Test Colors Sequential DarkGreenPNG](help/test-colors-sequential-darkGreenPNG.png) | ![Test Colors Sequential DarkPurpelPNG](help/test-colors-sequential-darkPurpelPNG.png)
-**colors-sequential-lightBlue.gp** | **colors-sequential-lightGreen.gp**  | **colors-sequential-lightPurpel.gp** 
-![Test Colors Sequential LightBluePNG](help/test-colors-sequential-lightBluePNG.png) | ![Test Colors Sequential LightGreenPNG](help/test-colors-sequential-lightGreenPNG.png) | ![Test Colors Sequential LightPurpelPNG](help/test-colors-sequential-lightPurpelPNG.png)
-**colors-sequential-lightOrange.gp** |
-![Test Colors Sequential LightOrangePNG](help/test-colors-sequential-lightOrangePNG.png) | 
+![Test ColorsPNG](help/test-colorsPNG.png)
 
 
