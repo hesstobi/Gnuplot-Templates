@@ -83,4 +83,9 @@ The layout-default is load with the `defaults.gp`
 
 ### Latex
 
+By loading `latex.gp` the format is set to `\\num{%g}` and these label function are set:
+
+![Test LatexPNG](help/test-latexPNG.png)
+
+
 

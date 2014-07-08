@@ -20,9 +20,6 @@ set key outside
 set output 'test-defaults.tex'
 plot for [i=-1:7] 9-i*x*0.1 with lines lt i title 'linetype '.i
 
-
-
-
 load "layout-empty.gp"
 
 set terminal cairolatex pdf size 20cm,3cm
@@ -83,3 +80,31 @@ set multiplot layout 2,2
   }
 
 unset multiplot
+
+reset
+load "defaults.gp"
+load "layout-empty.gp"
+load "latex.gp"
+
+set terminal cairolatex pdf size 20cm,6cm
+
+set output 'test-latex.tex'
+
+set label 1 "arrowLabel('Label'):  ".arrowLabel('Label') at 0,0 left
+set label 2 "shortLabel('U','V'):  ".shortLabel('U','V') at 0,-1 left
+set label 3 "shortArrowLabel('U','V'):  ".shortArrowLabel('U','V') at 0,-2 left
+set label 4 "longLabel('Spannung','U','V'):  ".longLabel('Spannung','U','V') at 0,-3 left
+set label 5 "longArrowLabel('Spannung','U','V'):  ".longArrowLabel('Spannung','U','V') at 0,-4 left
+set label 6 "shortPuLabel('U','Ur'):  ".shortPuLabel('U','U_\bez{r}') at 0,-5 left
+set label 7 "shortPuArrowLabel('U','Ur'):  ".shortPuArrowLabel('U','U_\bez{r}') at 0,-6 left
+set label 8 "longPuLabel('Spannung','U','Ur'):  ".longPuLabel('Spannung','U','U_\bez{r}') at 0,-7 left
+set label 9 "longPuArrowLabel('Spannung','U','Ur'):  ".longPuArrowLabel('Spannung','U','U_\bez{r}') at 0,-8 left
+
+set yrange [-8:0]
+set xrange [0:1]
+
+plot 1/0 notitle
+
+
+
+

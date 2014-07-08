@@ -61,30 +61,19 @@ set terminal cairolatex pdf color dashed size 16cm,10cm
 # LOCALE = de_de
 load 'layout-default.gp'
 
-
-# locale (de or en)
-load 'locale-de.gp'
-
-# color
-load 'colors-qualitative-paired.gp'
+load 'latex.gp'
 
 
-########################################################
-#  Plot Settings
-########################################################
 
-# Margins
-set lmargin 7
-# set rmargin 6
-# set bmargin 4
-# set tmargin 4
 
-set xlabel labelWithUnit('desc','symb','unit') 
-set label 100 labelWithUnit('desc','symb','unit') 
 
 ########################################################
 #  Plot
 ########################################################
 set output '#{name}.tex'
+
+set label 100 longArrowLabel('desc','symb','unit') 
+set label 200 longArrowLabel('desc','symb','unit') 
+
 
 plot ${0:sin(x)} with lines
