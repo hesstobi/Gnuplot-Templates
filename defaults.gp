@@ -22,6 +22,9 @@ if (!exists('LOCALE')) {
      LOCALE = system('echo $LANG')
 }
 
+set locale LOCALE
+set decimalsign locale LOCALE
+
 POINTTYPE1 = 7
 POINTTYPE2 = 5
 POINTTYPE3 = 9
@@ -47,6 +50,4 @@ set linetype 7 linecolor rgb "#000000" linewidth LINEWIDTH dashtype 2 pointtype 
 set linetype cycle 7
 
 load "layout-default.gp"
-
-set locale LOCALE
-set decimalsign locale LOCALE
+load "latex.gp"

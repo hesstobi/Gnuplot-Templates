@@ -59,13 +59,7 @@ set terminal cairolatex pdf color dashed size 16cm,10cm
 # POINTSIZE = 1
 # LINEWIDTH = 1
 # LOCALE = de_de
-load 'layout-default.gp'
-
-load 'latex.gp'
-
-
-
-
+load 'defaults.gp'
 
 ########################################################
 #  Plot
