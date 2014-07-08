@@ -33,6 +33,9 @@ You can easily change some settings by defining the following variables before y
 * GRIDCOLOR
 * LINEWIDTH
 * POINTSIZE
+* LOCALE
+
+The LOCALE is set by default to the $LANG environment variable. By over writing the value the decimalsign and foramting of dates is adapted.
 
 #### Labels
 

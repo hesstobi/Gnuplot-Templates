@@ -58,6 +58,7 @@ set terminal cairolatex pdf color dashed size 16cm,10cm
 # TEXTCOLOR = "#000000"
 # POINTSIZE = 1
 # LINEWIDTH = 1
+# LOCALE = de_de
 load 'layout-default.gp'
 
 

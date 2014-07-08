@@ -18,6 +18,9 @@ if (!exists('LINEWIDTH')) {
 if (!exists('POINTSIZE')) {
      POINTSIZE = 0.5
 } 
+if (!exists('LOCALE')) {
+     LOCALE = system('echo $LANG')
+}
 
 POINTTYPE1 = 7
 POINTTYPE2 = 5
@@ -44,3 +47,6 @@ set linetype 7 linecolor rgb "#000000" linewidth LINEWIDTH dashtype 2 pointtype 
 set linetype cycle 7
 
 load "layout-default.gp"
+
+set locale LOCALE
+set decimalsign locale LOCALE
