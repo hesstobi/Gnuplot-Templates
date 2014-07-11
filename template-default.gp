@@ -36,13 +36,13 @@ reset
 #  Size
 #  - 16cm,10cm    A4-Page normal FigSize
 #  - 13.5cm,7.9cm PowerPoint-Presentation Size 11/16
-set terminal cairolatex pdf color dashed size 16cm,10cm 
+set terminal cairolatex pdf color size 16cm,10cm 
 #  posible Options:
 #     {eps | pdf}
 #     {standalone | input}
 #     {blacktext | colortext | colourtext}
 #     {header <header> | noheader}
-#     {mono|color} {solid|dashed}
+#     {mono|color}
 #     {{no}transparent} {{no}crop} {background <rgbcolor>}
 #     {font <font>} {fontscale <scale>}
 #     {linewidth <lw>} {rounded|butt} {dashlength <dl>}
