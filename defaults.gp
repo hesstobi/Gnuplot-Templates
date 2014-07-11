@@ -49,5 +49,13 @@ set linetype 6 linecolor rgb "#000000" linewidth LINEWIDTH dashtype 1 pointtype 
 set linetype 7 linecolor rgb "#000000" linewidth LINEWIDTH dashtype 2 pointtype POINTTYPE7 pointsize POINTSIZE7
 set linetype cycle 7
 
+
+
+
 load "layout-default.gp"
-load "latex.gp"
+
+# for Latex Terminals load the latex settings
+if (strstrt(GPVAL_TERM, 'latex') > 0) {
+    load "latex.gp"
+}
+

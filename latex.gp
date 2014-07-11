@@ -21,3 +21,4 @@ longPuArrowLabel(desc,symb,unit) = arrowLabel(longPuLabel(desc,symb,unit))
 if (LOCALE eq 'de_de') {
      shortLabel(symb,unit) = sprintf("$\\nicefrac{%s}{\\si{%s}}$",symb,unit)
 }
+
